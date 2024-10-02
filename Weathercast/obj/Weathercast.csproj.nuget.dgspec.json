@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yener\\source\\repos\\Weathercast\\Weathercast\\Weathercast.csproj": {}
+    "D:\\GIT\\Projects\\WeathercastDemoApp-master\\WeathercastDemoApp-master\\Weathercast\\Weathercast.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yener\\source\\repos\\Weathercast\\Weathercast\\Weathercast.csproj": {
+    "D:\\GIT\\Projects\\WeathercastDemoApp-master\\WeathercastDemoApp-master\\Weathercast\\Weathercast.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yener\\source\\repos\\Weathercast\\Weathercast\\Weathercast.csproj",
+        "projectUniqueName": "D:\\GIT\\Projects\\WeathercastDemoApp-master\\WeathercastDemoApp-master\\Weathercast\\Weathercast.csproj",
         "projectName": "Weathercast",
-        "projectPath": "C:\\Users\\Yener\\source\\repos\\Weathercast\\Weathercast\\Weathercast.csproj",
-        "packagesPath": "C:\\Users\\Yener\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yener\\source\\repos\\Weathercast\\Weathercast\\obj\\",
+        "projectPath": "D:\\GIT\\Projects\\WeathercastDemoApp-master\\WeathercastDemoApp-master\\Weathercast\\Weathercast.csproj",
+        "packagesPath": "C:\\Users\\Mostafa.Ahmed\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT\\Projects\\WeathercastDemoApp-master\\WeathercastDemoApp-master\\Weathercast\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yener\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mostafa.Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,10 +26,12 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -36,10 +39,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "App.Metrics.AspNetCore": {
               "target": "Package",
@@ -72,14 +81,27 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
             }
           ],
           "frameworkReferences": {
@@ -90,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
